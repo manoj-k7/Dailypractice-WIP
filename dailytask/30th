@@ -1,0 +1,90 @@
+ 865  cd git/
+  866  ls
+  867  git clone https://github.com/manoj-k7/my-scripts.git
+  868  ls
+  869  cd my-scripts/
+  870  ls -a
+  871  cp -r /home/ubuntu/scripts .
+  872  git add *
+  873  git status
+  874  git commit -m "added new files"
+  875  git add scripts/
+  876  cd ..
+  877  git add .
+  878  cd ..
+  879  git status
+  880  ls -a
+  881  cd git/
+  882  ls -a
+  883  cd test_repo/
+  884  ls
+  885  cd ..
+  886  rm -rf test_repo/
+  887  git add *
+  888  git commit -m "added scripts"
+  889  touch t1
+  890  git add *
+  891  rm -rf my-scripts/
+  892  git add *
+  893  git commit -m "added new files"
+  894  cp -r /home/ubuntu/scripts/ .
+  895  git add *
+  896  cd ..
+  897  ls
+  898  cd scripts/
+  899  ls
+  900  ls -a
+  901  rm -rf .git
+  902  ls -a
+  903  cd ..
+  904  cd git/
+  905  ls
+  906  git status
+  907  git add *
+  908  ls
+  909  cd scripts/
+  910  ls -a
+  911  rm -rf sub/.git
+  912  ls -a
+  913  rm -rf .git
+  914  ls -a
+  915  cd ..
+  916  git add *
+  917  git commit -m "added files"
+  918  git push https://github.com/manoj-k7/my-scripts.git
+  919  ls
+  920  cd ..
+  921  ls
+  922  cd git/
+  923  ls
+  924  cat manu
+  925  git branch
+  926  git touch t2 t1 t3
+  927  touch t2 t1 t3
+  928  git status
+  929  git add *
+  930  git commit -m " added new files "
+  931  git log
+  932  git config --global user:name "Manu"
+  933  git config --global user.name "Manu"
+  934  git config --global user.email "manoj.pk6695@gmail.com"
+  935  git checkout -b manoj
+  936  git branch
+  937  ls
+  938  rm migrate.sh
+  939  git tag tag1
+  940  ls
+  941  git log
+  942  touch new1
+  943  git log
+  944  git add new1
+  945  git log
+  946  git commit  -m "added New1"
+  947  git log
+  948  git reset --soft f901908f16cd1db8a32bc1b5af49e28a17e5413a
+  949  git log
+  950  git reset --mixed f901908f16cd1db8a32bc1b5af49e28a17e5413a
+  951  git log
+  952  git status
+  953  history
+
